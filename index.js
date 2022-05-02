@@ -7,8 +7,8 @@ const explorers = Reader.ReadJsonfile("explorers.json")
 const mision = "java"
 const mision2="node"
 const explorerMission = ExpService.filterByMission(explorers,mision);
-
-const numeroExplorers = ExpService.getAmountOfExplorerByMission(explorers,mision2)
+console.log(explorerMission)
+/*const numeroExplorers = ExpService.getAmountOfExplorerByMission(explorers,mision2)
 
 const username = ExpService.getExplorersUsernameByMission(explorers,mision)
 
@@ -26,4 +26,4 @@ console.log(explorer5)
 
 const explorer15 = {name: "Explorer15", score: 15}
 FizzbuzzService.applyValidationInExplorer(explorer15) // {name: "Explorer15", score: 15, trick: "FIZZBUZZ"}
-console.log(explorer15)
+console.log(explorer15)*/
