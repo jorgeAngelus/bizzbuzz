@@ -7,7 +7,7 @@ const explorers = Reader.ReadJsonfile("explorers.json")
 const mision = "java"
 const mision2="node"
 const explorerMission = ExpService.filterByMission(explorers,mision);
-console.log(explorerMission)
+
 /*const numeroExplorers = ExpService.getAmountOfExplorerByMission(explorers,mision2)
 
 const username = ExpService.getExplorersUsernameByMission(explorers,mision)
